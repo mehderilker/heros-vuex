@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AddHero/>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddHero from './components/AddHero.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AddHero
   }
 }
 </script>
@@ -22,7 +20,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  width: 300px;
+  margin: 60px auto;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
