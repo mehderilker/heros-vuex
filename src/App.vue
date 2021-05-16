@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <AddHero/>
+    <ListHero/>
   </div>
 </template>
 <script>
 import AddHero from './components/AddHero.vue'
+import ListHero from './components/ListHero.vue'
 
 export default {
   name: 'App',
   components: {
-    AddHero
+    AddHero,
+    ListHero
   }
 }
 </script>
